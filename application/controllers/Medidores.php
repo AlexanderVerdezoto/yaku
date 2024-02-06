@@ -25,7 +25,7 @@ class Medidores extends CI_Controller {
         $data['medidores'] = $this->Medidor->get_medidores();
         $this->load->view('header');
 		$this->load->view('Medidores/index' , $data);
-        $this->load->view('footer');
+        // $this->load->view('foote	r');
 
 	}
    
