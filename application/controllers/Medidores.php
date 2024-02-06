@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Medidor extends CI_Controller {
+class Medidores extends CI_Controller {
+
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +21,13 @@ class Medidor extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+        $this->load->model('Medidor');
+        $data['medidores'] = $this->Medidor->get_medidores();
+        $this->load->view('header');
+		$this->load->view('Medidores/index' , $data);
+        $this->load->view('footer');
+
 	}
+   
+    
 }
