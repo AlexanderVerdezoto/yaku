@@ -19,6 +19,8 @@
         <div class="brand-logo d-flex align-items-center justify-content-between">
           <a href="<?php echo site_url("")?>" class="text-nowrap logo-img">
             <img src="<?php echo base_url("/assets/assets/images/logos/dark-logo.svg")?>" width="180" alt="" />
+          <a href="./index.html" class="text-nowrap logo-img">
+            <img src="https://repositorio.utc.edu.ec/image/logotipo-UTC.png" width="180" alt="" />
           </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
