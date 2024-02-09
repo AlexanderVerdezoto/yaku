@@ -8,7 +8,7 @@
     <div class="container-fluid">
         <h2>Configuraciones</h2>
         
-        <table id="configuracionesTable" class="table">
+        <table id="configuracionesTable" class="table form-control">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -39,7 +39,7 @@
                         <td><?php echo $configuracion->ruc_con; ?></td>
                         <td><?php echo $configuracion->logo_con; ?></td>
                         <td><?php echo $configuracion->telefono_con; ?></td>
-                        <td><?php echo $configuracion->dirrecion_con; ?></td>
+                        <td><?php echo $configuracion->direccion_con; ?></td>
                         <td><?php echo $configuracion->email_con; ?></td>
                         <td><?php echo $configuracion->servidor_con; ?></td>
                         <td><?php echo $configuracion->puerto_con; ?></td>
@@ -66,7 +66,7 @@
 
 <script>
     $(document).ready( function () {
-    $('#medidoresTable').DataTable();
+    $('#configuracionesTable').DataTable();
 } );
 </script>
     

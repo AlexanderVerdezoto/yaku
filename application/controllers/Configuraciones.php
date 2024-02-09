@@ -5,7 +5,7 @@ class Configuraciones extends CI_Controller {
     public function index()
 	{
         $this->load->model('Configuracion');
-        $data['medidores'] = $this->Configuracion->get_configuraciones();
+        $data['configuraciones'] = $this->Configuracion->get_configuraciones();
         $this->load->view('header');
 		$this->load->view('Configuraciones/index' , $data);
 
