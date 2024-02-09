@@ -34,7 +34,7 @@
                         <td><?php echo $medidor->estado_med; ?></td>
                         
                         <td>
-                            <a href="<?php echo site_url("Medidores/edit/".$medidor->id_med)?>" class="btn btn-primary">Editar</a>
+                            <a href="<?php echo site_url("Medidores/update/".$medidor->id_med)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Medidores/delete/".$medidor->id_med)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
