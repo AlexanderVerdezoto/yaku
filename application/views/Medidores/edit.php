@@ -36,6 +36,8 @@
     <input required class="form-control" type="text" name="lectura_inicial_med" placeholder="lectura_inicial_med" value="<?php echo $medidor->lectura_inicial_med; ?>">
     
     <input type="submit" value="Actualizar" class="btn btn-primary">
+
+    <a href="<?php echo site_url("Medidores/index")?>" class="btn btn-danger">Cancelar</a>
 </form>
         
         
