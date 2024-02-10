@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modernize Free</title>
+    <title>YAKU</title>
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url("/assets/assets/images/logos/favicon.png")?>" />
     <link rel="stylesheet" href="<?php echo base_url("/assets/assets/css/styles.min.css")?>" />
     
@@ -28,12 +28,12 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
           <ul id="sidebarnav">
-            <li class="nav-small-cap">
+          <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Medidores</span>
+              <span class="hide-menu">ASISTENCIA</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Asistencias/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -41,7 +41,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Asistencias/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
@@ -50,10 +50,10 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Lectura</span>
+              <span class="hide-menu">CONFIGURACION</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Lecturas/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Configuraciones/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -61,7 +61,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Lecturas/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Configuraciones/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
@@ -70,47 +70,7 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Impuesto</span>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Impuestos/index")?>" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Dashboard</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Impuestos/Agregar")?>" aria-expanded="false">
-                <span>
-                  <i class="ti ti-plus"></i>
-                </span>
-                <span class="hide-menu">Ingresar Datos</span>
-              </a>
-            </li>
-            <li class="nav-small-cap">
-              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Evento</span>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Dashboard</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
-                <span>
-                  <i class="ti ti-plus"></i>
-                </span>
-                <span class="hide-menu">Ingresar Datos</span>
-              </a>
-            </li>
-            <li class="nav-small-cap">
-              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Detalle</span>
+              <span class="hide-menu">Comunicado</span>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
@@ -150,7 +110,7 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Asistencia</span>
+              <span class="hide-menu">Detalle</span>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
@@ -170,7 +130,107 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Comunicado</span>
+              <span class="hide-menu">Evento</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">EXCEDENTE</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">HISTORIAL PROPIETARIO</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Impuesto</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Impuestos/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Impuestos/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Lectura</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Lecturas/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Lecturas/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li> 
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Medidor</span>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
@@ -190,10 +250,10 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Configuraciones</span>
+              <span class="hide-menu">PERFIL</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Configuraciones/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -201,7 +261,127 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Configuraciones/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">RECAUDACION</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">RUTA</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">SOCIO</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">TARIFA</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">TIPO EVENTO</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Ingresar Datos</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">USUARIO</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
