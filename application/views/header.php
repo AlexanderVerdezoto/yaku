@@ -93,7 +93,7 @@
               <span class="hide-menu">Detalle</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Detalles/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -101,7 +101,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Detalles/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
@@ -133,7 +133,7 @@
               <span class="hide-menu">EXCEDENTE</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Excedentes/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -141,7 +141,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Excedentes/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
