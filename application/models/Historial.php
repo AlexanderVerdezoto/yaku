@@ -1,5 +1,5 @@
 <?php
-   class Excedente extends CI_Model
+   class Historial extends CI_Model
    {
      function __construct()
      {
@@ -8,13 +8,13 @@
 
         function get_albums()
         {
-        $query = $this->db->get('excedente');
+        $query = $this->db->get('historial');
         return $query->result();
         }   
 
-        function get_excedentes()
+        function get_historiales()
         {
-        $query = $this->db->get('excedente');
+        $query = $this->db->get('historial');
         return $query->result();
         }
   

@@ -153,7 +153,7 @@
               <span class="hide-menu">HISTORIAL PROPIETARIO</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Historiales/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -161,7 +161,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Eventos/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Historiales/Agregar")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
