@@ -18,11 +18,7 @@
                     <th>Tarifa</th>
                     <th>Fecha Actualizacion</th>
                     <th>Fecha Creacion</th>
-
-                    
                     <th>Acciones</th>
-
-                    
                 </tr>
             </thead>
             <tbody>
@@ -35,21 +31,16 @@
                         <th><?php echo $excedente->tarifa_ex; ?></th>
                         <td><?php echo $excedente->fecha_actualizacion_ex; ?></td>
                         <td><?php echo $excedente->fecha_creacion_ex; ?></td>
-
-                        
                         <td>
                             <a href="<?php echo site_url("Excedentes/edit/".$excedente->id_ex)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Excedentes/delete/".$excedente->id_ex)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {

@@ -16,14 +16,10 @@
                     <th>Mes</th>
                     <th>Estado</th>
                     <th>Fecha Creacion</th>
-                    <th>FeCha Actualizacion</th>
+                    <th>Fecha Actualizacion</th>
                     <th>Numero Mes</th>
                     <th>Fecha Vencimiento</th>
-
-                    
                     <th>Acciones</th>
-
-                    
                 </tr>
             </thead>
             <tbody>
@@ -37,21 +33,16 @@
                         <td><?php echo $consumo->fecha_actualizacion_consumo; ?></td>
                         <td><?php echo $consumo->numero_mes_consumo; ?></td>
                         <td><?php echo $consumo->fecha_vencimiento_consumo; ?></td>
-
-                        
                         <td>
                             <a href="<?php echo site_url("Consumos/edit/".$consumo->id_consumo)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Consumos/delete/".$consumo->id_consumo)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {

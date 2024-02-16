@@ -25,10 +25,7 @@
                     <th>Actualizacion</th>
                     <th>AnioInicial</th>
                     <th>MesInicial</th>
-                    
-                    <th>Acciones</th>
-
-                    
+                    <th>Acciones</th>  
                 </tr>
             </thead>
             <tbody>
@@ -48,21 +45,16 @@
                         <td><?php echo $configuracion->actualizacion_con; ?></td>
                         <td><?php echo $configuracion->anio_inicial_con; ?></td>
                         <td><?php echo $configuracion->mes_inicial_con; ?></td>
-
-                        
                         <td>
                             <a href="<?php echo site_url("Configuraciones/edit/".$configuracion->id_con)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Configuraciones/delete/".$configuracion->id_con)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {

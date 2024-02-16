@@ -19,12 +19,8 @@
                     <th>Atraso</th>
                     <th>Valor Atraso</th>
                     <th>Creacion</th>
-                    <th>Actualizacion</th>
-
-                    
-                    <th>Acciones</th>
-
-                    
+                    <th>Actualizacion</th>                 
+                    <th>Acciones</th>                
                 </tr>
             </thead>
             <tbody>
@@ -38,9 +34,7 @@
                         <td><?php echo $asistencia->atraso_asi; ?></td>
                         <td><?php echo $asistencia->valor_atraso_asi; ?></td>
                         <td><?php echo $asistencia->creacion_asi; ?></td>
-                        <td><?php echo $asistencia->actualizacion_asi; ?></td>
-
-                        
+                        <td><?php echo $asistencia->actualizacion_asi; ?></td>             
                         <td>
                             <a href="<?php echo site_url("Asistencias/edit/".$asistencia->id_asi)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Asistencias/delete/".$asistencia->id_asi)?>" class="btn btn-danger">Eliminar</a>
@@ -52,7 +46,6 @@
         </table>
     </div>
 </div>
-
 
 
 <script>

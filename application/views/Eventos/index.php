@@ -13,12 +13,9 @@
                 <tr>
                     <th>ID</th>
                     <th>Descripcion</th>
-                    <th>Fechahora</th>
+                    <th>Fecha y hora</th>
                     <th>Lugar</th>
-                    
                     <th>Acciones</th>
-
-                    
                 </tr>
             </thead>
             <tbody>
@@ -28,21 +25,16 @@
                         <td><?php echo $evento->descripcion_eve; ?></td>
                         <td><?php echo $evento->fecha_hora_eve; ?></td>
                         <td><?php echo $evento->lugar_eve; ?></td>
-
-                        
                         <td>
                             <a href="<?php echo site_url("Eventos/edit/".$evento->id_eve)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Eventos/delete/".$evento->id_eve)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {

@@ -20,11 +20,7 @@
                     <th>Fecha Cambio</th>
                     <th>Creacion</th>
                     <th>Propietario Actual</th>
-
-                    
                     <th>Acciones</th>
-
-                    
                 </tr>
             </thead>
             <tbody>
@@ -39,21 +35,16 @@
                         <td><?php echo $historial->fecha_cambio_his; ?></td>
                         <td><?php echo $historial->creacion_his; ?></td>
                         <td><?php echo $historial->propietario_actual_his; ?></td>
-
-                        
                         <td>
                             <a href="<?php echo site_url("Historiales/edit/".$historial->id_his)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Historiales/delete/".$historial->id_his)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {

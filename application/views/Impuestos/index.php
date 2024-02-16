@@ -18,11 +18,8 @@
                     <th>Retencion</th>
                     <th>Estado</th>
                     <th>Creacion</th>
-                    <th>Actualizacion</th>
-                                            
+                    <th>Actualizacion</th>                    
                     <th>Acciones</th>
-
-                    
                 </tr>
             </thead>
             <tbody>
@@ -36,20 +33,16 @@
                         <td><?php echo $impuesto->estado_imp; ?></td>
                         <td><?php echo $impuesto->creacion_imp; ?></td>
                         <td><?php echo $impuesto->actualizacion_imp; ?></td>
-
                         <td>
                             <a href="<?php echo site_url("Impuestos/edit/".$impuesto->id_imp)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Impuestos/delete/".$impuesto->id_imp)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
-
-
 
 <script>
     $(document).ready( function () {
