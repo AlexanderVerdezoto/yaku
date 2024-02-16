@@ -350,10 +350,10 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">USUARIO</span>
+              <span class="hide-menu">USUARIOS</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/index")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Usuarios/index")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -361,7 +361,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Medidores/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Usuarios/Add")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
