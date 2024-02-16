@@ -8,22 +8,18 @@
     <div class="container-fluid">
         <h2>Detalles</h2>
         
-        <table id="detallesTable" class="table form-control">
+        <table id="detallesTable" class="table">
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Id_lectura</th>
-                    <th>Id_recaudacion</th>
+                    <th>Lectura</th>
+                    <th>Recaudación</th>
                     <th>Cantidad</th>
                     <th>Detalle</th>
                     <th>Valor Unitario</th>
                     <th>Subtotal</th>
                     <th>Iva</th>
-
-                    
-                    <th>Acciones</th>
-
-                    
+                    <th>Acciones</th>  
                 </tr>
             </thead>
             <tbody>
@@ -33,31 +29,24 @@
                         <td><?php echo $detalle->fk_id_lec; ?></td>
                         <td><?php echo $detalle->fk_id_rec; ?></td>
                         <td><?php echo $detalle->cantidad_det; ?></td>
-                        <th><?php echo $detalle->detalle_det; ?></th>
+                        <td><?php echo $detalle->detalle_det; ?></td>
                         <td><?php echo $detalle->valor_unitario_det; ?></td>
                         <td><?php echo $detalle->subtotal_det; ?></td>
                         <td><?php echo $detalle->iva_det; ?></td>
-
-                        
                         <td>
-                            <a href="<?php echo site_url("Detalles/edit/".$detalle->id_det)?>" class="btn btn-primary">Editar</a>
+                            <a href="<?php echo site_url("Detalles/update/".$detalle->id_det)?>" class="btn btn-primary">Editar</a>
                             <a href="<?php echo site_url("Detalles/delete/".$detalle->id_det)?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
                 <?php } ?>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
 </div>
 
-
-
 <script>
     $(document).ready( function () {
-    $('detallesTable').DataTable();
+    $('#detallesTable').DataTable();
 } );
 </script>
-    
-
 </div>
