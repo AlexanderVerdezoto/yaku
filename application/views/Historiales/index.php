@@ -6,20 +6,20 @@
 </head>
 <div class="body-wrapper">
     <div class="container-fluid">
-        <h2>Historial Propietario</h2>
+        <h2>Historial</h2>
         
-        <table id="historialesTable" class="table form-control">
+        <table id="historialTable" class="table form-control">
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Id_Medidor</th>
-                    <th>Id_Socio</th>
-                    <th>Actualizacion</th>
+                    <th>Medidor</th>
+                    <th>Socio</th>
+                    <th>Actualización</th>
                     <th>Estado</th>
-                    <th>observacion</th>
-                    <th>Fecha Cambio</th>
-                    <th>Creacion</th>
-                    <th>Propietario Actual</th>
+                    <th>Observación Unitario</th>
+                    <th>Fecha de cambio</th>
+                    <th>Creación</th>
+                    <th>Propietario actual</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -48,9 +48,7 @@
 
 <script>
     $(document).ready( function () {
-    $('#historialesTable').DataTable();
+    $('historialTable').DataTable();
 } );
 </script>
-    
-
 </div>

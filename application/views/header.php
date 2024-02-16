@@ -161,7 +161,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?php echo site_url("Historiales/Agregar")?>" aria-expanded="false">
+              <a class="sidebar-link" href="<?php echo site_url("Historiales/add")?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
